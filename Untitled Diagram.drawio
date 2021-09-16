@@ -1,14 +1,71 @@
-<mxfile host="app.diagrams.net" modified="2021-09-16T00:59:09.456Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="5fjmUfvz6vqeb-ro3IGI" version="15.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-16T01:18:15.598Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="giZMgpjfuKi8lt1YIiHU" version="15.2.7" type="github">
   <diagram id="R-2Ter7KqKhgpDat89RA" name="Page-1">
-    <mxGraphModel dx="1016" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1237" dy="690" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="FhKKXddoRb7-fI8x5XWR-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="280" width="120" height="60" as="geometry" />
+        <mxCell id="FhKKXddoRb7-fI8x5XWR-8" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="FhKKXddoRb7-fI8x5XWR-1" target="FhKKXddoRb7-fI8x5XWR-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FhKKXddoRb7-fI8x5XWR-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="620" y="280" width="120" height="60" as="geometry" />
+        <mxCell id="FhKKXddoRb7-fI8x5XWR-1" value="S5130-A&lt;br&gt;interface vlan 100&lt;br&gt;10.10.100.1/30" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FhKKXddoRb7-fI8x5XWR-2" value="&lt;span&gt;S5130-B&lt;br&gt;interface vlan 100&lt;br&gt;10.10.100.2/30&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FhKKXddoRb7-fI8x5XWR-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="FhKKXddoRb7-fI8x5XWR-7" target="FhKKXddoRb7-fI8x5XWR-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FhKKXddoRb7-fI8x5XWR-7" value="只可提供2个Access口" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="400" y="270" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FhKKXddoRb7-fI8x5XWR-10" value="access" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="310" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FhKKXddoRb7-fI8x5XWR-12" value="access" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="310" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FhKKXddoRb7-fI8x5XWR-14" value="QinQ enable" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="360" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FhKKXddoRb7-fI8x5XWR-16" value="port acc vlan 101" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="360" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FhKKXddoRb7-fI8x5XWR-17" value="QinQ enable" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="360" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FhKKXddoRb7-fI8x5XWR-18" value="port acc vlan 101" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="360" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FhKKXddoRb7-fI8x5XWR-20" value="port acc vlan 101" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="290" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FhKKXddoRb7-fI8x5XWR-21" value="port acc vlan 101" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="290" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FhKKXddoRb7-fI8x5XWR-22" value="交换机是园区的，当把S5130-A和B，用长网线直连，可以互通，但经过了园区S5800的交换机以后，同样也是给的两个ACCESS口，就不通了。但他们之间的interface vlan100 可以互相Ping通" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="302" y="320" width="280" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="FhKKXddoRb7-fI8x5XWR-24" value="园区交换机" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=10;" vertex="1" parent="1">
+          <mxGeometry x="394" y="240" width="96" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FhKKXddoRb7-fI8x5XWR-19" value="SW2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FhKKXddoRb7-fI8x5XWR-25" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;" edge="1" parent="1" source="FhKKXddoRb7-fI8x5XWR-2" target="FhKKXddoRb7-fI8x5XWR-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="789.7142857142858" y="600" as="targetPoint" />
+            <mxPoint x="790" y="340" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FhKKXddoRb7-fI8x5XWR-15" value="SW1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FhKKXddoRb7-fI8x5XWR-26" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;" edge="1" parent="1" source="FhKKXddoRb7-fI8x5XWR-1" target="FhKKXddoRb7-fI8x5XWR-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="129.71428571428578" y="600" as="targetPoint" />
+            <mxPoint x="130" y="340" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
